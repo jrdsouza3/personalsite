@@ -89,6 +89,25 @@
   max-width: 600px;
 }
 
+.hero-socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.hero-socials a {
+  color: #004080;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid transparent;
+}
+
+.hero-socials a:hover {
+  color: #00B3B3;
+  border-bottom-color: #00B3B3;
+}
+
 .hero-photo-wrap {
   display: flex;
   justify-content: center;

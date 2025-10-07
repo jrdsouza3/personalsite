@@ -27,7 +27,10 @@ function App() {
           <div className="hero-text">
             <h1 className="hero-title">Hi, I'm <span className="accent">Jason</span></h1>
             <h2 className="hero-subtitle">a full stack Developer.</h2>
-            
+            <div className="hero-socials">
+              <a href="https://github.com/jrdsouza3" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/jason-d-16016b12b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
           </div>
           <div className="hero-photo-wrap">
             <img className="profile-photo" src={profilePhoto} alt="Profile" />
